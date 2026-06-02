@@ -18,7 +18,7 @@ A simple collaborative To-Do List web application built by 18 group members.
 
 | Name | Matric Number | Contribution |
 |------|---------------|--------------|
-| Your Name | Your Matric | Project setup + core features |
+| Muhammad Ibrahim | CIS/STE/22/1143 | Project setup + core features |
 | Member 2 | Matric | Added comments + tested |
 | ... | ... | ... |
 
