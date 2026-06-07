@@ -1,3 +1,5 @@
+/* Fatima Ahmad
+CIS/STE/22/1153 */
 /* Al-ameen Umar Muhammad
 CIS/STE/22/1154 */
 * {
@@ -26,10 +28,14 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #333;
+    color: #6a0dad;
+    font-size: 3rem;
 }
 
 .input-area {
+    /* Modified by Fatima Ahmad
+    CIS/STE/22/1153 */
+    
     display: flex;
     margin-bottom: 20px;
     gap: 10px;
