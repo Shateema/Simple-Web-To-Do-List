@@ -17,6 +17,10 @@ function addTask() {
     input.value = '';
     renderTasks();
 }
+//Aminu Abubakar Yahaya  
+function sortTasks() {
+    tasks.sort((a, b) => a.text.localeCompare(b.text));
+    renderTasks();
 //Aliyu Ahmadu Babadoko
 function toggleDarkMde(){
     document.body.classList.toggle('dark-mode');
