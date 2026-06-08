@@ -1,5 +1,7 @@
 // Group To-Do List - Open Source Project
 
+// Full Name: Muhammad Abdurrahman
+// Matric Number: CIS/STE/22/1159
 let tasks = [];
 
 function addTask() {
@@ -40,7 +42,8 @@ function clearAll() {
         renderTasks();
     }
 }
-
+// Full Name: Muhammad Abdurrahman
+// Matric Number: CIS/STE/22/1159
 function renderTasks() {
     const list = document.getElementById('taskList');
     list.innerHTML = '';
@@ -49,7 +52,9 @@ function renderTasks() {
         const li = document.createElement('li');
         li.className = task.completed ? 'completed' : '';
         li.innerHTML = `
-            <span onclick="toggleComplete(${task.id})">${task.text}</span>
+            <span onclick="toggleComplete(${task.id})">
+    ${task.completed ? '✅ ' : ''}${task.text}
+</span>
             <button onclick="deleteTask(${task.id})" style="background:#e74c3c; padding:5px 10px; font-size:14px;">Delete</button>
         `;
         list.appendChild(li);
