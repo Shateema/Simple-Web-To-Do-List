@@ -21,6 +21,9 @@ function addTask() {
 function sortTasks() {
     tasks.sort((a, b) => a.text.localeCompare(b.text));
     renderTasks();
+//Aliyu Ahmadu Babadoko
+function toggleDarkMde(){
+    document.body.classList.toggle('dark-mode');
 }
 function toggleComplete(id) {
     tasks = tasks.map(task => {
@@ -29,7 +32,11 @@ function toggleComplete(id) {
     });
     renderTasks();
 }
-
+//Hafsat Muhammad Khamis
+function markAllCompleted() {
+    tasks = tasks.map(task => ({...task, completed: true}));
+    renderTasks();
+}
 function deleteTask(id) {
     tasks = tasks.filter(task => task.id !== id);
     renderTasks();
