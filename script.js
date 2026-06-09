@@ -14,6 +14,9 @@ function addTask() {
         id: Date.now(),
         text: taskText,
         completed: false
+
+        //CIS/STE/22/1152   Abubakar Aliyu Maidugu
+        alert("✅ Task added successfully!");
     });
     
     input.value = '';
