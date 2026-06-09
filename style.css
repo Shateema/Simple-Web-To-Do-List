@@ -11,6 +11,10 @@ CIS/STE/22/1153 */
 
 body {
     font-family: Arial, sans-serif;
+
+    //CIS/STE/22/1151  Isa Ibn Awaisu
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    
     background: linear-gradient(135deg, #667eea, #764ba2);
     min-height: 100vh;
     padding: 20px;
