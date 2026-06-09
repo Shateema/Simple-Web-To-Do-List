@@ -62,6 +62,9 @@ function renderTasks() {
         `;
         list.appendChild(li);
     });
+    //Abdallah magaji saulawa CIS/STE/22/1158
+    const remaining = tasks.filter(t => !t.completed).length;
+    document.getElementById('taskCounter').textContent = `${remaining} task${remaining !== 1 ? 's' : ''} remaining`;
 }
 
 // Load tasks from localStorage (bonus feature)
