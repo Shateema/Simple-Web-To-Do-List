@@ -28,6 +28,8 @@ A simple collaborative To-Do List web application built by 18 group members.
 | Muhammad Abdurrahman |CIS/STE/22/1159|Add some emoji to the completed tasks|
 | Isa Ibn Awaisu     |CIS/STE/22/1151|Change the font of the whole app to something nicer|
 | Abubakar Aliyu Maidugu |CIS/STE/22/1152|Add a confirmation message when a task is added|
+| Usman Bello Marafa |CIS/STE/22/1148|Add local storage loading message when the page opens|
+
 
 
 **All 18 members must add their name here after their PR is merged.**
