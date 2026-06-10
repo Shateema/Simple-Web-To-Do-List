@@ -83,6 +83,10 @@ window.onload = () => {
     const savedTasks = localStorage.getItem('groupTasks');
     if (savedTasks) {
         tasks = JSON.parse(savedTasks);
+        
+     //Usman Bello Marafa  CIS/STE/22/1148
+    const list = document.getElementById('taskList');
+    list.innerHTML = '<li style="text-align:center; color:#888;">Loading saved tasks...</li>';
     }
     renderTasks();
 };
