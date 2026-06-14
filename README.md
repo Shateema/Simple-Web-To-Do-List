@@ -29,6 +29,9 @@ A simple collaborative To-Do List web application built by 18 group members.
 | Isa Ibn Awaisu     |CIS/STE/22/1151|Change the font of the whole app to something nicer|
 | Abubakar Aliyu Maidugu |CIS/STE/22/1152|Add a confirmation message when a task is added|
 | Usman Bello Marafa |CIS/STE/22/1148|Add local storage loading message when the page opens|
+| Al-ameen Umar Muhammad |CIS/STE/22/1154|Change the "Delete" button color to red and make it smaller|
+
+
 
 
 
