@@ -41,10 +41,14 @@ function toggleComplete(id) {
 function markAllCompleted() {
     tasks = tasks.map(task => ({...task, completed: true}));
     renderTasks();
+    
 }
 function deleteTask(id) {
     tasks = tasks.filter(task => task.id !== id);
     renderTasks();
+
+    //Sadeeq Abubakar Muhammed CIS/STE/22/1160
+    <button onclick="deleteTask(${task.id})" style="background:#e74c3c; color:white; padding:6px 12px; border:none; border-radius:5px;">🗑️ Delete</button>
 }
 
 function clearAll() {
