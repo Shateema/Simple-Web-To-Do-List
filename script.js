@@ -8,6 +8,9 @@ function addTask() {
     const input = document.getElementById('taskInput');
     const taskText = input.value.trim();
     
+    //Sadiq Shehu CIS/STE/22/1147
+    document.getElementById('taskInput').focus();
+    
     if (taskText === '') return;
     
     tasks.push({
