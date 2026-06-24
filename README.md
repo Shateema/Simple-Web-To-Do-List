@@ -31,6 +31,7 @@ A simple collaborative To-Do List web application built by 18 group members.
 | Usman Bello Marafa |CIS/STE/22/1148|Add local storage loading message when the page opens|
 | Al-ameen Umar Muhammad |CIS/STE/22/1154|Change the "Delete" button color to red and make it smaller|
 | Sadeeq Abubakar Muhammad |CIS/STE/22/1160|Add a "Clear Completed Tasks" button.|
+| Sadiq Shehu              |CIS/STE/22/1147| Make the input box clear automatically after adding a task (already there, but improve it)|
 
 
 
